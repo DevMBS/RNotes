@@ -1,0 +1,39 @@
+body{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    margin: 0;
+}
+.button{
+    background: linear-gradient(to top right, #3ad0d5, #d53a9d);
+}
+#main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#title{
+    margin-top: 100px;
+    font-size: 53px;
+}
+#nm{
+    border-bottom: 6px solid #02238f;
+}
+.note{
+    background-color: #f0f4f6;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.noteTitle{
+    color: #02238f;
+    font-size: 1.3em;
+}
+.signUpButton{
+    margin-top: 120px;
+}

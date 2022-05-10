@@ -1,0 +1,77 @@
+#account{
+    position: fixed;
+    right: 30px;
+    top: 9px;
+    z-index: 1;
+}
+#accountButton{
+    color: #000;
+    transform: scale(1.5);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#accountButton:hover{
+    background-color: #eee;
+}
+#newNote{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 5%;
+}
+#addNewNote{
+    transform: scale(2);
+}
+#noteTitle{
+    font-size: 1.5em;
+}
+#noteArea{
+    font-family: inherit;
+    word-wrap: break-word;
+    margin-top: 10px;
+}
+.noteElement{
+    display: inline-block;
+    background-color: #f0f4f6;
+    padding: 30px;
+    border-radius: 10px;
+    overflow: auto;
+    width: 25.5%;
+    word-break: break-all;
+    margin: 0 30px;
+    position: relative;
+    z-index: 0;
+}
+.noteElementTitle{
+    color: #02238f;
+    font-size: 1.3em;
+}
+#notesContainer{
+    width: 100%;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.edit, .delete{
+    margin:0;
+    color: #444;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 5px;
+}
+.delete:hover{
+    background-color: #ddd;
+}
+.edit:hover{
+    background-color: #ddd;
+}
+.edit{
+    right: 40px;
+}
+.delete{
+    right: 10px;
+}
